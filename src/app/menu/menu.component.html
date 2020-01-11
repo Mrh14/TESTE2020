@@ -1,0 +1,70 @@
+<div class="container">
+    
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal" [ngClass]="{'show':showModal}">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header" style="background-color:whitesmoke;">
+            <h4 class="modal-title" style="margin: auto;">Vous avez le droit à 2 membres supplementaires  </h4>
+            
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body col-md-12 ">
+            <form action="">
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio" required> Monsieur
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio" required>Madamme
+                 </label>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="nom" placeholder="NOM" required>
+                </div>
+                <div class="form-group col-md-6">
+                 
+                  <input type="text" class="form-control" id="prenom" placeholder="PRENOM" required>
+                </div>
+              </div>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="mail" placeholder="ADRESSE MAIL" required>
+              </div>
+              <div class="form-group">
+                
+                <input type="tel" class="form-control" id="tel" placeholder="MOBILE" required>
+              </div>
+              <div class="form-group">
+                
+                <input type="text" class="form-control" id="tel" placeholder="CODE" required>
+              </div>
+              <button type="button" id="b2" class="form-group btn btn-light col-md-6" data-dismiss="modal">Annuler</button>
+              <button type="submit" id="b1" class="form-group btn btn-primary col-md-6" data-dismiss="modal">Enregitrer</button>
+              
+            </form>
+                
+            
+          </div>
+          
+         
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <button type="button" id="b3" class="btn btn-primary" data-toggle="modal" data-target="#myModal" (click)="showModal=true">
+    + Ajouter
+  </button>
+
+  <div id="nav2" class="navbar">
+    <a class="dd"  href="#"><img src="assets/logo.png" style="width: 40px;" alt="logo" > finense</a >
+    <a id="RR" href="#"><i class="fa fa-fw fa-search"></i></a>
+</div>  

@@ -1,0 +1,31 @@
+.modal.show
+{
+display: block;
+}
+#myModal
+{
+    margin-top: 10%;
+}
+#b3{
+    position: absolute;
+    bottom: 80%;
+    left: 10%;
+    width: 20%;
+}
+#nav2{
+   opacity: 0;
+}
+@media (max-width:420px) and (max-height:823px)
+{
+    #nav2{
+        opacity: 10000;
+        
+    }
+    
+    #b2{
+        visibility: hidden;
+        position: absolute;
+         width: 0;
+    }
+    
+}

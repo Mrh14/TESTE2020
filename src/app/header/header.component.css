@@ -1,0 +1,64 @@
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover,a.active {
+    color:aqua;
+  }
+ 
+  #RR
+  {
+   
+   float: right;
+  }
+ 
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .bar{
+      margin: auto;
+  }
+  
+  @media (max-width:420px) and (max-height:823px){
+     .navbar
+     {
+  position: absolute;
+  bottom: 0;
+     }
+     
+     a.dd
+     {
+         visibility: hidden;
+         position: absolute;
+         width: 0;
+         
+     }
+     #RR
+     {
+      visibility: hidden;
+      position: absolute;
+      width: 0;
+     }
+     .navbar a{
+        font-size: 14px;
+     }
+     
+   
+  }
